@@ -54,13 +54,13 @@ pip install -r requirements.txt
 Run the tool by providing an API URL:
 
 ```bash
-python api_vuln_checker.py <API_URL>
+sudo python api_vuln_checker.py <API_URL>
 ```
 
 ### Example:
 
 ```bash
-python api_vuln_checker.py https://jsonplaceholder.typicode.com/posts
+sudo python api_vuln_checker.py https://jsonplaceholder.typicode.com/posts
 ```
 
 ## Usage
@@ -70,7 +70,7 @@ The tool accepts an API URL as input and generates a JSON report highlighting th
 ### Command
 
 ```bash
-python api_vuln_checker.py <API_URL>
+sudo python api_vuln_checker.py <API_URL>
 ```
 
 ### Example Output (JSON Report)
@@ -127,10 +127,6 @@ Contributions are welcome! Please submit a pull request or open an issue to disc
 - **Commit your changes** (`git commit -am 'Add new feature'`).
 - **Push to the branch** (`git push origin feature/new-feature`).
 - **Open a pull request**.
-
-## License
-
-This project is licensed under the MIT License - see the LICENSE file for details.
 
 ## Acknowledgements
 
