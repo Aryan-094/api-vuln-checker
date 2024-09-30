@@ -131,6 +131,3 @@ Contributions are welcome! Please submit a pull request or open an issue to disc
 ## Acknowledgements
 
 Special thanks to the contributors and the open-source libraries used in this project.
-```
-
-You can copy and paste this directly into your `README.md` file!
